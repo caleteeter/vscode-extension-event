@@ -1,0 +1,6 @@
+out/
+node_modules/
+dist/
+*.vsix
+webpack-stats*
+package-lock*
