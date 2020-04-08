@@ -1,4 +1,4 @@
-# Sample using VSCode extension that communicate via events
+# Sample using VSCode extensions that communicate via events
 
 This repo contains the source for 2 VS Code extensions that demonstrate the ability to distinct extensions communicate with each other.  In this instance, this is via an event.  The extension in the producer folder, vscode-event-emitter, will setup an event and expose a function that will allow others to subscribe to this event.  In this example the payload of the event is a simple string value.  The extension in the consumer folder, vscode-event-consumer, will subscribe to the event from the producer.  Upon receiving the event, it will raise a notification with the event payload (string value).
 
